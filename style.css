@@ -1,0 +1,35 @@
+/*-----------CONTENIDO FIRSTPAGE.HTML--------*/
+.img-portada{
+    background-image: url(img/img-portada.jpeg);
+    height: 350px;
+    width: 100%;
+    background-size: 100% 350px;
+    background-repeat: no-repeat;
+}
+.main-content .tittle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.parrafos{
+    margin: 20px 0px;
+    padding: 10px;
+}
+ footer p, a{
+    color: aliceblue;
+    text-align: center;
+ }
+
+ /*-----------CONTENIDO SECONDPAGE.HTML--------*/
+
+ .campo-section{
+    display: flex;
+    flex-direction: column;
+ }
+ .formulario{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+ }
+
