@@ -39,9 +39,12 @@ formFormluario.addEventListener("submit",(e)=>{
      }
 
      if(validarApellido && validarCorreo && validarNombre && validarRut && validarTelefono){
-       alert(nombre.value+" - "+apellido.value+" - "+rut.value+" - "+telefono.value+" - "+correo.value+" - "+marca.value+" - "+color.value+" - "+)
+       alert(nombre.value+" - "+apellido.value+" - "+rut.value+" - "+telefono.value+" - "+correo.value+" - "+marca.value+" - "+color.value+" - ")
+         return true
+         alert("todo correcto")
      }else{
-        alert("llene los campos necesarios")
+        e.preventDefault()
+         return false
      }
 
 
@@ -50,8 +53,8 @@ formFormluario.addEventListener("submit",(e)=>{
      
      
 
-    //e.preventDefault();
+    //;
     //alert("hola")
 
-    return false
+    
 })
